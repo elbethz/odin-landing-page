@@ -16,7 +16,7 @@ body{
   color:white;
   display:flex;
   justify-content: space-around;
-  height:50px;
+  height:70px;
   align-items: baseline;
 } 
 
@@ -24,7 +24,7 @@ body{
   padding-top: 5px;
   margin-right:200px;
   font-family: "Dancing Script", cursive;
-  font-size:2rem;
+  font-size:2.5rem;
   color: #e0be15;
 }
 
@@ -32,7 +32,6 @@ ul{
   list-style-type:none;
   display:flex;
   gap:30px;
-  
 }
 
 a{
@@ -44,4 +43,57 @@ a{
 
 a:hover{
   color: #e0be15;
+}
+
+
+.contenedor-header{
+  /*background-image: url("images/gradient-unsplash.jpg")*/
+  background: #252741;
+  display:flex;
+  height:400px;
+  justify-content:space-around;
+  align-items:center;
+}
+
+.contenedor-texto{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items:flex-start;
+  gap:5px;
+  color:white;
+  width: 500px;
+  height: 100%;
+  padding:30px;
+}
+
+.contenedor-texto p{
+  line-height:1.2;
+  font-size:18px;
+}
+
+.contenedor-texto button{
+  width: 30%;
+  height: 40px;
+  margin-top:8px;
+  background-color: #e0a800;
+  border:1px solid #e0be15;
+  border-radius: 8px;
+  color: #fff;
+  font-weight:900;
+  font-size:1rem;
+  cursor: pointer;
+}
+
+button:hover{
+  background: #a37a00;
+}
+
+
+
+
+.imagen-header{
+  width:400px;
+  border:3px solid rgb(224,190,21);
+  border-radius:10px;
 }
