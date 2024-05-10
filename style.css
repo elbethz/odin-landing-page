@@ -9,10 +9,12 @@
 
 body{
   font-family: "Roboto", sans-serif;
+  background-image: url("images/fondo.jpg");
+  background-size:cover;
 }
 
 .contenedor-nav{
-  background: #252741;
+  background: rgba(35,39,65,0.8);
   color:white;
   display:flex;
   justify-content: space-around;
@@ -47,8 +49,8 @@ a:hover{
 
 
 .contenedor-header{
-  /*background-image: url("images/gradient-unsplash.jpg")*/
-  background: #252741;
+  /*background: #252741;*/
+  background: rgba(35,39,65,0.8);
   display:flex;
   height:400px;
   justify-content:space-evenly;
@@ -73,7 +75,7 @@ a:hover{
   font-size:18px;
 }
 
-.contenedor-texto button{
+.boton{
   width: 30%;
   height: 40px;
   margin-top:8px;
@@ -86,7 +88,7 @@ a:hover{
   cursor: pointer;
 }
 
-button:hover{
+.boton:hover{
   background: #a37a00;
 }
 
@@ -103,11 +105,13 @@ h2{
    justify-content:center;
    font-size:2rem;
    color:#fff;
-  background: #252741;
+  /*background: #252741;*/
+  background: rgba(35,39,65,0.8);
  } 
 
 .contenedor-tarjetas{
-  background: #252741;
+  /*background: #252741;*/
+  background: rgba(35,39,65,0.8);
   display:flex;
   justify-content:space-evenly;
   align-items:center;
@@ -134,3 +138,86 @@ h2{
 .tarjetas p{
   color: #fff;
 }
+
+.contenedor-cita{
+  display:flex;
+  background: rgba(35,39,65,0.8);
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+  height:400px;
+  text-align:center;
+
+}
+
+
+.contenedor-cita p{
+  color:white;
+  font-size:30px;
+  font-family: sans-serif;
+  font-style:italic;
+  font-weight:lighter;
+}
+
+.nombre{
+  align-self:flex-end;
+  margin-right:50px;
+}
+
+.nombre p{
+  font-size:1.2rem;
+  font-weight:bold;
+}
+
+.contenedor-accion{
+  display:flex;
+  height:150px;
+  justify-content:center;
+  gap:100px;
+  align-items :center;
+  background: rgba(35,39,65,0.8);
+}
+
+.contenedor-accion button{
+  width:130px;
+  height:50px;
+  background-color: #e0a800;
+  color: #fff;
+  font-size:1rem;
+  font-weight:900;
+  border:1px solid #e0be15;
+  border-radius: 8px;
+  cursor:pointer;
+}
+button:hover{
+  background: #a37a00;
+}
+
+.contenedor-texto-accion{
+  width:30%;
+  color:#fff;
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.contenedor-texto-accion h3{
+  font-size: 25px;
+}
+
+.pie{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:50px;
+  background: #252741;
+  color: #e0a800;
+  font-size:1.3rem;
+}
+
+
+
+
+
+
+
